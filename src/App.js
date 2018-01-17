@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import CharacterBio from './components/character_bio.js';
+import DiceRoll from './components/dice_rolls.js';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <header className="App-header">
         </header>
         <CharacterBio />
+        <DiceRoll />
       </div>
     );
   }

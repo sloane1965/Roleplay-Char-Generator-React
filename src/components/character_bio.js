@@ -67,7 +67,10 @@ class CharacterBio extends React.Component {
           Eye Color:
           <input type="text" value={this.state.value} onChange={this.handleChange} /><br />
         </label>
-
+		<label>
+		Character Bio:
+        <textarea cols="30" rows="10" value={this.state.value} onchange={this.handleChange} /> <br />
+        </label>
         <input type="submit" value="Submit" />
       </form>
     );
